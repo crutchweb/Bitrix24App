@@ -1,0 +1,6 @@
+{
+    "require": {
+        "ujy/bitrix24_api_authorization": "dev-master",
+        "mesilov/bitrix24-php-sdk": "dev-master"
+    }
+}
