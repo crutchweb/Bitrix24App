@@ -64,7 +64,7 @@ class Mail
                     </body>
                 </html>";
         $headers  = "Content-type: text/html; charset=utf-8 \r\n";
-        $headers .= "From: <" . $this->from . ">\r\n";
+        $headers .= "From: <$this->from>\r\n";
 
         if (mail($this->to, $this->subject, $message, $headers)) {
             return true;
